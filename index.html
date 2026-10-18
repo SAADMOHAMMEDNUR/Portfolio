@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Saad Mohammednur | Software Engineer</title>
+<meta name="description" content="Portfolio of Saad Mohammednur, Informatics student at the University of Washington who builds and ships real products.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M9 13h6M9 17h6"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-gh" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17 4.9 18 5.2 18 5.2c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></symbol>
+  <symbol id="i-li" viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5zM5.3 7.4a2.1 2.1 0 1 1 0-4.1 2.1 2.1 0 0 1 0 4.1zM7.1 20.5H3.5V9h3.6zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+</svg>
+
+<!-- ================= NAV ================= -->
+<header>
+  <nav class="wrap">
+    <a href="#home" class="brand"><span class="d">C:\</span>saad<span class="gt">&gt;</span><span class="cursor"></span></a>
+    <div class="links" id="links">
+      <a href="#about"><span>C:\</span>about</a>
+      <a href="#skills"><span>C:\</span>skills</a>
+      <a href="#projects"><span>C:\</span>projects</a>
+      <a href="#experience"><span>C:\</span>experience</a>
+      <a href="#contact"><span>C:\</span>contact</a>
+    </div>
+    <a href="#" class="btn nav-cta"><svg><use href="#i-doc"/></svg>Resume</a>
+    <button class="burger" id="burger" aria-label="Open menu"><svg><use href="#i-menu"/></svg></button>
+  </nav>
+  <div class="progress" id="progress"></div>
+</header>
+
+<main>
+<!-- ================= HOME ================= -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <span class="prompt">whoami</span>
+      <h1>Saad <span class="amber">Mohammednur.</span></h1>
+      <p class="role">Software Engineer · Informatics @ University of Washington</p>
+      <p class="lede">I build products people actually use, from the database to the button, and I ship them. Currently looking for summer 2027 internships.</p>
+      <div class="ctas">
+        <a href="#projects" class="btn btn-amber">.\view_projects <svg><use href="#i-arrow"/></svg></a>
+        <a href="#contact" class="btn">.\contact</a>
+      </div>
+      <div class="stats">
+        <div class="card stat"><b>3.3</b><span>GPA · Dean's List</span></div>
+        <div class="card stat"><b>2028</b><span>graduating</span></div>
+        <div class="card stat"><b>20+</b><span>players coached</span></div>
+      </div>
+    </div>
+
+    <!-- YOUR PHOTO: save it in this folder as "me.jpg" and it appears here automatically -->
+    <div class="card photo-win reveal">
+      <div class="win-bar"><span class="wt img">me.jpg - Photos</span><span class="wc" aria-hidden="true"><b><svg viewBox="0 0 10 10"><path d="M0 5h10"/></svg></b><b><svg viewBox="0 0 10 10"><rect x=".5" y=".5" width="9" height="9"/></svg></b><b class="x"><svg viewBox="0 0 10 10"><path d="M0 0l10 10M10 0 0 10"/></svg></b></span></div>
+      <div class="photo">
+        <div class="ph"><div><b>SM</b>add your photo as<br>me.jpg in this folder</div></div>
+        <img src="me.jpg" alt="Photo of Saad Mohammednur" onerror="this.remove()">
+        <div class="status"><i></i>open to internships</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="tight">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="prompt">type about.md</span>
+      <h2>About me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p><strong>I like building things people actually use, and understanding the people using them.</strong> That's what pulled me into Informatics at the University of Washington.</p>
+        <p>My first real build was a website for AVELA, where I worked directly with the owner and collaborated with 2 others to turn their goals into a mobile-friendly site. Since then I've been doing side projects and keeping up with the latest technology.</p>
+        <p>Outside of class, I coach esports for the Seattle Public Library, where I use game data to shape strategy and run weekly meetings with my team. I'm also part of NSBE, ColorStack UW, Google Developer Club and UW esports, as I play for the University of Washington.</p>
+        <div class="facts">
+          <div class="card fact"><span>based in</span><b>Seattle, WA</b></div>
+          <div class="card fact"><span>studying</span><b>B.S. Informatics, UW</b></div>
+          <div class="card fact"><span>graduating</span><b>June 2028</b></div>
+          <div class="card fact"><span>also</span><b>Esports coach, SPL</b></div>
+        </div>
+      </div>
+      <div class="card reveal" aria-label="Terminal">
+        <div class="win-bar"><span class="wt">Windows PowerShell</span><span class="wc" aria-hidden="true"><b><svg viewBox="0 0 10 10"><path d="M0 5h10"/></svg></b><b><svg viewBox="0 0 10 10"><rect x=".5" y=".5" width="9" height="9"/></svg></b><b class="x"><svg viewBox="0 0 10 10"><path d="M0 0l10 10M10 0 0 10"/></svg></b></span></div>
+        <div class="term-body" id="termBody"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="prompt">dir skills\</span>
+      <h2>Skills</h2>
+      <p>The tools I use for school, side projects and work.</p>
+    </div>
+    <div class="skills" id="skillGrid"></div>
+    <p class="learning reveal"><span class="amber">PS&gt;</span> currently learning: <b>System Design</b></p>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="prompt">dir projects\ /a</span>
+      <h2>Projects</h2>
+      <p>Things I've built and shipped. Filter by type.</p>
+    </div>
+    <div class="filters reveal" id="filters"></div>
+    <div class="proj-grid" id="projGrid"></div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="prompt">Get-History -Experience</span>
+      <h2>Experience</h2>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="prompt">.\contact.exe --send</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <h3>Let's build something <span class="amber">together.</span></h3>
+        <p>Hiring for an internship, starting a project, or just want to talk tech? My inbox is open.</p>
+        <button class="card copy" id="copyEmail" type="button"><span>saadm12570@gmail.com</span><small>click to copy</small></button>
+        <div class="socials">
+          <a class="card hov" href="https://github.com/SAADMOHAMMEDNUR" aria-label="GitHub"><svg><use href="#i-gh"/></svg></a>
+          <a class="card hov" href="https://www.linkedin.com/in/saadmohammednur/" aria-label="LinkedIn"><svg><use href="#i-li"/></svg></a>
+          <a class="card hov" href="mailto:saadm12570@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
+          <a class="card hov" href="#" aria-label="Resume"><svg><use href="#i-doc"/></svg></a>
+        </div>
+      </div>
+      <form class="card reveal" id="form">
+        <label for="n">name</label><input id="n" required placeholder="Your name">
+        <label for="e">email</label><input id="e" type="email" required placeholder="you@example.com">
+        <label for="m">message</label><textarea id="m" required placeholder="What's on your mind?"></textarea>
+        <button class="btn btn-amber" type="submit"><svg><use href="#i-mail"/></svg>send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><span class="amber">PS&gt;</span> echo "© <span id="yr"></span> Saad Mohammednur"</span>
+    <a href="#home">back to top ↑</a>
+  </div>
+</footer>
+<a href="#home" class="to-top" id="toTop" aria-label="Back to top"><svg><use href="#i-up"/></svg></a>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
