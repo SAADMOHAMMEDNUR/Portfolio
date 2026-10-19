@@ -180,7 +180,10 @@ section.tight{padding-top:56px}
 .copy small{color:var(--faint);font-size:.75rem;transition:color .2s}
 .copy.done small{color:#28C840}
 .socials{display:flex;gap:10px;margin-top:14px}
-.socials a{width:44px;height:44px;display:grid;place-items:center;border-radius:10px}
+.socials a,.socials button{position:relative;width:44px;height:44px;display:grid;place-items:center;border-radius:10px}
+/* username bubble above the Discord button, shown on hover / keyboard focus */
+.socials [data-user]::after{content:attr(data-user);position:absolute;bottom:calc(100% + 8px);left:50%;transform:translate(-50%,4px);white-space:nowrap;font-family:var(--f-mono);font-size:.72rem;padding:5px 9px;border-radius:7px;background:var(--amber);color:#14110E;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s}
+.socials [data-user]:hover::after,.socials [data-user]:focus-visible::after{opacity:1;transform:translate(-50%,0)}
 .socials svg{width:19px;height:19px}
 form{padding:24px}
 label{display:block;font-family:var(--f-mono);font-size:.74rem;color:var(--soft);margin:14px 0 6px}

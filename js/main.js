@@ -73,12 +73,6 @@ $('#burger').addEventListener('click',()=>$('#links').classList.toggle('open'));
 navA.forEach(a=>a.addEventListener('click',()=>$('#links').classList.remove('open')));
 
 /* contact */
-$('#copyEmail').addEventListener('click',async e=>{
-  const b=e.currentTarget,s=b.querySelector('small');
-  try{await navigator.clipboard.writeText('saadm12570@gmail.com');s.textContent='copied ✓';b.classList.add('done')}
-  catch{location.href='mailto:saadm12570@gmail.com'}
-  setTimeout(()=>{s.textContent='click to copy';b.classList.remove('done')},2000);
-});
 $('#form').addEventListener('submit',e=>{
   e.preventDefault();
   const body=`From: ${$('#n').value} <${$('#e').value}>\n\n${$('#m').value}`;
