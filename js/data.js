@@ -24,6 +24,10 @@ const PROJECTS = [
   { title:"Popcorn Vegan Website", type:"client", label:"client · AVELA", art:"popcorn vegan", bg:"#0E2A26", img:"",
     desc:"A multi-page website (home, products, about, contact) built for a local business during my AVELA internship. I worked directly with the owner to turn their goals into features, improved mobile accessibility, and fixed cross-browser issues on desktop and mobile. Mar – May 2023.",
     tags:["HTML","CSS","JavaScript","UX"], links:[["code","https://github.com/NOLAWATSON/PopcornVegan"]] },
+
+  { title:"Minecraft Mod", type:"game", label:"game", art:"minecraft mod", bg:"#FFAA00", img:"",
+    desc:"In the process of making a minecraft mod with a friend.",
+    tags:["Java"], links:[["code",""]] }
 ];
 
 const EXPERIENCE = [
@@ -64,7 +68,7 @@ const TERMINAL = [
   ["cmd","type about.txt"],
   ["out","# informatics @ uw · builder · esports coach"],
   ["cmd","dir interests"],
-  ["out","web  data  ux  esports"],
+  ["out","backend  data  java  esports reading"],
   ["cmd","Get-Status"],
   ["key","class of 2028 · open to internships"],
 ];
