@@ -32,7 +32,7 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   { role:"B.S. Informatics", org:"University of Washington", when:"Expected June 2028 · Seattle, WA",
-    points:["Dean's List.","Coursework: Data Structures & Algorithms, Research Methods, Client-Side Development, Design Methods.","Affiliations: NSBE, ColorStack UW, AVELA, Google Developer Club."],
+    points:["Coursework: Data Structures & Algorithms, Research Methods, Client-Side Development, Design Methods.","Affiliations: NSBE, ColorStack UW, AVELA, Google Developer Club, iMuslimsUW, MSAUW, UW Esports."],
     tags:["Education"] },
 
   { role:"UW Rocket League Player", org:"UW Esports", when:"Sept 2024 – Present · Seattle, WA",
